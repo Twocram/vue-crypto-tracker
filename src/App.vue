@@ -27,4 +27,9 @@ ul {
   max-width: 1368px;
   margin: 0 auto;
 }
+
+html {
+  background: rgb(14, 19, 43);
+  color: #fff;
+}
 </style>
