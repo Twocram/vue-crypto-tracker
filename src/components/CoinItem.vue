@@ -35,7 +35,7 @@ export default {
 .coin-item__wrapper {
   padding: 10px;
   border: 2px solid white;
-  margin-bottom: 15px;
+  margin-bottom: 40px;
   display: grid;
   grid-template-columns: repeat(7, minmax(0, 1fr));
   align-items: center;
