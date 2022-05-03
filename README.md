@@ -1,16 +1,10 @@
 # vue-crypto-tracker
 
-This template should help get you started developing with Vue 3 in Vite.
+This projects realised with Vue + Composition API + Coingecko API
 
-## Recommended IDE Setup
+## How to use on your machine ?
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=johnsoncodehk.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=johnsoncodehk.vscode-typescript-vue-plugin).
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
+### Download project from github and use command:
 
 ```sh
 npm install
@@ -20,10 +14,4 @@ npm install
 
 ```sh
 npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
 ```
