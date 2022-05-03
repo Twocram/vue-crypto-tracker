@@ -22,4 +22,9 @@ a {
 ul {
   list-style: none;
 }
+
+#app {
+  max-width: 1368px;
+  margin: 0 auto;
+}
 </style>
