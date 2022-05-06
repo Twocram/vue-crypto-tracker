@@ -25,7 +25,7 @@ ul {
 
 #app {
   max-width: 1368px;
-  margin: 0 auto;
+  margin: 40px auto;
 }
 
 html {
