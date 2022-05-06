@@ -5,13 +5,10 @@
 </template>
 
 <script>
-import useCoins from '@/hooks/useCoins';
-import CoinList from '@/components/CoinList.vue';
+import useCoins from "@/hooks/useCoins.js";
+import CoinList from "@/components/CoinList.vue";
 
 export default {
-  data() {
-    return {};
-  },
   setup() {
     const { coins } = useCoins();
     return {
