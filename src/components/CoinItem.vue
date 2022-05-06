@@ -16,13 +16,7 @@
       {{ coin.price_change_percentage_24h.toFixed(2) }}%
     </div>
     <div>${{ coin.market_cap.toLocaleString('fi-FI') }}</div>
-    <button
-      @click="
-        $router.push({ path: `/coins/${coin.id}`, params: { id: coin.id } })
-      "
-    >
-      Go to Page
-    </button>
+    <button @click="$router.push(`/coins/${coin.id}`)">Go to Page</button>
   </div>
 </template>
 <script>
