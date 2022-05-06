@@ -8,20 +8,24 @@
       {{ coin.symbol }}
     </div>
     <div class="coin-item__current-price">
-      {{ coin.current_price.toLocaleString('fi-FI') }}
+      {{ coin.current_price.toLocaleString("fi-FI") }} $
     </div>
     <div
       :class="[coin.price_change_percentage_24h > 0 ? 'positive' : 'negative']"
     >
       {{ coin.price_change_percentage_24h.toFixed(2) }}%
     </div>
-    <div>${{ coin.market_cap.toLocaleString('fi-FI') }}</div>
-    <button @click="$router.push(`/coins/${coin.id}`)">Go to Page</button>
+    <div>${{ coin.market_cap.toLocaleString("fi-FI") }}</div>
+    <button
+      @click="this.$router.push({ name: 'coin-item', params: { id: coin.id } })"
+    >
+      Go to Page
+    </button>
   </div>
 </template>
 <script>
 export default {
-  name: 'coin-item',
+  name: "coin-item",
   props: {
     coin: {
       type: Object,
