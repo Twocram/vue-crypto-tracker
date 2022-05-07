@@ -3,6 +3,7 @@
     type="text"
     :value="modelValue"
     @input="updateInput"
+    placeholder="Type name of coin"
     class="custom-input"
   />
 </template>
@@ -24,7 +25,8 @@ export default {
 <style lang="scss" scoped>
 .custom-input {
   height: 30px;
-  min-width: 200px;
+  max-width: 200px;
+  margin-bottom: 30px;
   &:focus {
     outline: none;
   }
